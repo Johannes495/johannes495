@@ -1,16 +1,16 @@
-### Hi there 👋
+# Responsive Portfolio Website Patrick
+## [Watch it on youtube](https://youtu.be/Y4-xMb-eHOQ)
+### Responsive Portfolio Website Patrick
 
-<!--
-**Johannes495/johannes495** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Responsive Portfolio Website Design Using HTML CSS & JavaScript
+- Contains animations when scrolling.
+- Smooth scrolling in each section.
+- Contains a beautiful dark theme.
+- The color of the project can be customized.
+- Sending emails in the contact section.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-Here are some ideas to get you started:
+💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![preview img](/preview.png)
