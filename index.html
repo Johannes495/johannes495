@@ -1,296 +1,80 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-      <!--=============== REMIXICONS ===============-->
-      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
-
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
-
-      <title>Johannes Harnack</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">
-               Johannes <span>Harnack</span>
-            </a>
-
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a href="#home" class="nav__link active-link">Home</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="#about" class="nav__link">About</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="#contact" class="nav__link">Contact</a>
-                  </li>
-               </ul>
-
-               <!-- Close button -->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
-            </div>
-
-            <!-- Toggle button -->
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-line"></i>
-            </div>
-         </nav>
-      </header>
-
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <div class="home__content">
-                  <div class="home__data">
-                     <h3 class="home__subtitle">
-                        Hello, <span>I’m</span>
-                     </h3>
-   
-                     <h1 class="home__title">Johannes Harnack</h1>
-   
-                     <h3 class="home__education">Azure Engineer</h3>
-   
-                     <p class="home__description">
-                     </p>
-   
-                     <a href="#contact" class="button">Let's Talk</a>
-                  </div>
-
-                  <div class="home__social">
-                     <a href="https://www.xing.com/profile/Johannes_Harnack" target="_blank" class="home__social-link">
-                        <i class="ri-xing-fill"></i>
-                     </a>
-
-                     <a href="https://de.linkedin.com/in/johannes-harnack-34846b204" target="_blank" class="home__social-link">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            <div class="about__container container grid">
-               <div class="about__data">
-                  <h3 class="section__subtitle">
-                     My <span>Intro</span>
-                  </h3>
-
-                  <h2 class="section__title">
-                     About Me
-                  </h2>
-
-                  <p class="about__description">
-                     Johannes Harnack, a passionate Microsoft Azure Cloud Enthusiast with years of experience in administering Microsoft on-premises and Azure multi-cloud environments, offers deep expertise in Microsoft technologies for your tech projects.
-                  </p>
-
-                  <a href="#contact" class="button">Contact Me</a>
-               </div>
-
-               <div class="about__image">
-                  <svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <mask id="maskBorder" mask-type="alpha">
-                        <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
-                        171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
-                        448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
-                        270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
-                        439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black"/>
-                     </mask>
-                     <g mask="url(#maskBorder)">
-                        <rect x="37" width="476" height="630" fill="url(#pattern2)"/>
-                        
-                        <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
-                        192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
-                        580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
-                        40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
-                        175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10"/>
-                     </g>
-                  
-                     <rect x="37" width="476" height="300" fill="url(#pattern3)"/>
-                  
-                     <defs>
-                        <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-                           <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
-                        </pattern>
-                  
-                        <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
-                           <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
-                        </pattern>
-                  
-                        <!-- Insert your profile (recommended size: 640 x 940) -->
-                        <image class="about__img" id="imageBorder" width="640" height="940" href="assets/img/perfil.png"/>
-                     </defs>
-                  </svg>
-               </div>
-            </div>
-         </section>
-
-         <!--==================== SKILLS ====================-->
-         <section class="skills section">
-            <div class="skills__container container grid">
-               <div class="skills__data">
-                  <h3 class="section__subtitle">
-                     Favorite <span>Skills</span>
-                  </h3>
-
-                  <h2 class="section__title">
-                     My Skills
-                  </h2>
-
-                  <p class="skills__description">
-                     An overview of my actual skillset and favorite technologies..
-                  </p>
-               </div>
-
-               <div class="skills__content">
-                  <ol class="skills__group">
-                     <li class="skills__item">Azure Architecture</li>
-                     <li class="skills__item">IAM + Azure Security</li>
-                     <li class="skills__item">Azure Virtual Desktop</li>
-                     <li class="skills__item">Microsoft 365</li>
-                  </ol>
-
-                  <ol class="skills__group" start="5">
-                     <li class="skills__item">Hybrid Microsoft environments</li>
-                     <li class="skills__item">Azure Kubernetes Services</li>
-                     <li class="skills__item">Azure DevOps</li>
-                     <li class="skills__item">Terraform</li>
-                  </ol>
-               </div>
-            </div>
-         </section>
-
-         <!--==================== SERVICES ====================-->
-         <section class="services section" id="services">
-            <h3 class="section__subtitle">
-               My <span>Services</span>
-            </h3>
-
-            <h2 class="section__title">
-               What I Do
-            </h2>
-
-            <div class="services__container container grid">
-               <article class="services__card">
-                  <i class="ri-layout-3-line services__icon"></i>
-
-                  <h2 class="services__title">Microsoft Infrastructure Management</h2>
-
-                  <p class="services__description">
-                     Streamline your Microsoft infrastructure management with our dedicated administration services. Our tailored solutions are designed to optimize performance, enhance security, and ensure seamless operation of your Microsoft infrastructure, empowering your organization to focus on core objectives with confidence.
-                  </p>
-               </article>
-
-               <article class="services__card">
-                  <i class="ri-pantone-line services__icon"></i>
-
-                  <h2 class="services__title">Microsoft 365 Consultancy</h2>
-
-                  <p class="services__description">
-                     Enhance your team's proficiency in Microsoft 365 with our comprehensive workshops. Our tailored sessions are crafted to equip your team with the expertise to maximize productivity and collaboration using the Microsoft 365 suite
-                  </p>
-               </article>
-
-               <article class="services__card">
-                  <i class="ri-pen-nib-line services__icon"></i>
-
-                  <h2 class="services__title">Azure Architecture</h2>
-
-                  <p class="services__description">
-                     Elevate your team's expertise in Azure architecture with our specialized workshops. We offer tailored sessions designed to empower your team with the knowledge and skills needed to architect robust solutions on the Azure cloud platform.
-                  </p>
-               </article>
-            </div>
-         </section>
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            <h3 class="section__subtitle">
-               Get In <span>Touch</span>
-            </h3>
-
-            <h2 class="section__title">
-               Contact Me
-            </h2>
-
-            <div class="contact__container container grid">
-               <form action="" class="contact__form" id="contact-form">
-                  <div class="contact__group">
-                     <input type="text" name="user_name" required placeholder="Enter your name" class="contact__input">
-                     <input type="email" name="user_email" required placeholder="Enter your email" class="contact__input">
-                  </div>
-
-                  <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
-                  
-                  <p class="contact__message" id="contact-message"></p>
-                  
-                  <button type="submit" class="button contact__button">
-                     Send Message
-                  </button>
-               </form>
-            </div>
-         </section>
-      </main>
-
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <div>
-               <h1 class="footer__title">
-                  Johannes <span>Harnack</span>
-               </h1>
-               
-               <h2 class="footer__education">
-                  Azure Engineer  
-               </h2>
-            </div>
-
-            <div class="footer__social">
-              
-               <a href="https://de.linkedin.com/in/johannes-harnack-34846b204" target="_blank" class="home__social-link">
-                  <i class="ri-linkedin-box-line"></i>
-               </a>
-
-               <a href="https://www.xing.com/profile/Johannes_Harnack" target="_blank" class="home__social-link">
-                  <i class="ri-xing-fill"></i>
-               </a>
-            </div>
-
-            <span class="footer__copy">
-               &#169; Copyright Johannes Harnack. All rights reserved. <br> Special thanks to Bedimcode for this awesome theme.
-            </span>
-         </div>
-      </footer>
-
-      <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-line"></i>
-      </a>
-
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
-
-      <!--=============== EMAIL JS ===============-->
-      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080e17">
+  <meta name="description" content="Johannes Harnack – technischer Spezialist für Azure Local und hybride Microsoft-Infrastrukturen. Enterprise-Betrieb, Administration und Beratung.">
+  <title>Johannes Harnack | Azure Local &amp; Hybrid Infrastructure</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <header class="header">
+    <nav class="container nav" aria-label="Hauptnavigation">
+      <a class="brand" href="#home" aria-label="Johannes Harnack – Startseite"><span class="brand-mark" aria-hidden="true">jh<span>.</span></span><span>Johannes Harnack<small>IT-CONSULTING</small></span></a>
+      <button class="menu-toggle" aria-controls="nav-menu" aria-expanded="false" hidden>Menü <span aria-hidden="true">☰</span></button>
+      <div class="nav-links" id="nav-menu">
+        <a href="#services">Leistungen</a><a href="#expertise">Technologien</a><a href="#about">Über mich</a><a class="nav-contact" href="#contact">Kontakt <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="blue-dot"></span> AZURE LOCAL &amp; HYBRID INFRASTRUCTURE</p>
+        <h1 id="hero-title">Infrastruktur.<br>Durchdacht.<br><span>Stabil betrieben.</span></h1>
+        <p class="hero-intro">Ich bin Johannes Harnack. Als technischer Spezialist verbinde ich lokale Microsoft-Infrastruktur mit Azure – mit klarem Fokus auf Enterprise-Betrieb, Administration und Beratung.</p>
+        <div class="actions"><a class="button" href="#contact">Über Ihr Vorhaben sprechen <span aria-hidden="true">↗</span></a><a class="text-link" href="#services">Leistungen entdecken <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <figure class="architecture" aria-labelledby="architecture-caption">
+        <div class="diagram-top"><span>HYBRIDE INFRASTRUKTUR</span><span aria-hidden="true">01 / 03</span></div>
+        <div class="cloud-node"><svg viewBox="0 0 48 40" aria-hidden="true"><path d="M10 31H8a7 7 0 0 1-1-14 11 11 0 0 1 21-6 10 10 0 0 1 9 20h-3M17 26l7-7 7 7M24 19v17"/></svg><div><strong>Microsoft Azure</strong><span>Cloud &amp; zentrale Verwaltung</span></div></div>
+        <div class="connector"><span>Azure Arc</span></div>
+        <div class="local-layer"><div class="layer-title"><span class="blue-dot"></span><strong>Azure Local</strong><span>LOKAL</span></div><div class="server-grid"><div><span class="server-icon" aria-hidden="true"></span>Compute</div><div><span class="server-icon" aria-hidden="true"></span>Storage</div><div><span class="server-icon" aria-hidden="true"></span>Netzwerk</div></div></div>
+        <div class="foundation"><span>Identität</span><span>Sicherheit</span><span>Betrieb</span></div>
+        <figcaption id="architecture-caption"><span aria-hidden="true">↳</span> Lokal verankert. Mit Azure verbunden.<small>Schematische Darstellung</small></figcaption>
+      </figure>
+    </section>
+    <div class="focus-strip"><div class="container"><span>TECHNISCHER FOKUS</span><strong>Azure Local</strong><i aria-hidden="true">/</i><strong>Hybride Infrastruktur</strong><i aria-hidden="true">/</i><strong>Enterprise-Betrieb</strong></div></div>
+    <section class="section container" id="services" aria-labelledby="services-title">
+      <div class="section-heading"><div><p class="eyebrow">01 — LEISTUNGEN</p><h2 id="services-title">Von der Architektur<br>bis in den täglichen Betrieb.</h2></div><p>Gute Infrastruktur bewährt sich im Alltag. Ich unterstütze dort, wo technische Entscheidungen und operativer Betrieb zusammenkommen.</p></div>
+      <div class="services-grid">
+        <article class="service"><span class="service-number">01 /</span><h3>Enterprise-Betrieb</h3><p>Hybride Umgebungen strukturiert betreiben, Abhängigkeiten verstehen und Änderungen kontrolliert umsetzen.</p><ul><li>Monitoring und Fehleranalyse</li><li>Patch- und Lifecycle-Planung</li><li>Betriebsdokumentation und Übergabe</li></ul></article>
+        <article class="service"><span class="service-number">02 /</span><h3>Administration</h3><p>Microsoft-Infrastrukturen technisch betreuen – von der lokalen Plattform bis zur Anbindung an Azure.</p><ul><li>Azure Local und Windows Server</li><li>Identitäten und Berechtigungen</li><li>Konfiguration und Automatisierung</li></ul></article>
+        <article class="service"><span class="service-number">03 /</span><h3>Technische Beratung</h3><p>Anforderungen in nachvollziehbare technische Entscheidungen übersetzen. Mit Blick auf den späteren Betrieb.</p><ul><li>Bestandsaufnahme und Architektur</li><li>Hybrid- und Migrationskonzepte</li><li>Wissenstransfer für IT-Teams</li></ul></article>
+      </div>
+    </section>
+    <section class="expertise section" id="expertise" aria-labelledby="expertise-title"><div class="container expertise-layout">
+      <div><p class="eyebrow">02 — TECHNOLOGIEN</p><h2 id="expertise-title">Lokal und Cloud.<br><span class="muted">Zusammen gedacht.</span></h2><p class="section-description">Mein Schwerpunkt liegt auf Microsoft-Technologien und ihrem Zusammenspiel in hybriden Unternehmensumgebungen.</p><a class="text-link" href="#contact">Technische Anforderungen besprechen <span aria-hidden="true">↗</span></a></div>
+      <dl class="technology-list"><div><dt><span>01</span> Plattform &amp; Virtualisierung</dt><dd>Azure Local · Windows Server · Hyper-V</dd></div><div><dt><span>02</span> Hybrid &amp; Cloud</dt><dd>Microsoft Azure · Azure Arc · Azure Architecture</dd></div><div><dt><span>03</span> Identität &amp; Sicherheit</dt><dd>Active Directory · Microsoft Entra ID · IAM</dd></div><div><dt><span>04</span> Automatisierung &amp; Bereitstellung</dt><dd>PowerShell · Terraform · Azure DevOps</dd></div></dl>
+    </div></section>
+    <section class="section container about-layout" id="about" aria-labelledby="about-title">
+      <div class="portrait-frame"><img src="assets/img/perfil.png" alt="Johannes Harnack" width="640" height="940" loading="lazy"><div class="portrait-label">Johannes Harnack<span>Technik verstehen. Betrieb mitdenken.</span></div></div>
+      <div class="about-copy"><p class="eyebrow">03 — ÜBER MICH</p><h2 id="about-title">Technischer Partner.<br>Mit Blick fürs Ganze.</h2><p>Ich bin Johannes Harnack und beschäftige mich mit der Administration lokaler Microsoft- und Azure-Umgebungen. Mein Fokus: Azure Local und hybride Infrastrukturen, die sich im Enterprise-Alltag nachvollziehbar betreiben lassen.</p><p>Ich verbinde technische Umsetzung mit Beratung. Dazu gehören für mich klare Zuständigkeiten, verständliche Dokumentation und ein offener Austausch mit den Menschen, die die Systeme täglich betreuen.</p><div class="principles"><span>Technisch fundiert</span><span>Praxisorientiert</span><span>Partnerschaftlich</span></div></div>
+    </section>
+    <section class="contact section container" id="contact" aria-labelledby="contact-title"><div class="contact-inner"><p class="eyebrow">DER NÄCHSTE SCHRITT</p><h2 id="contact-title">Ihre Infrastruktur.<br>Unser technisches Gespräch.</h2><p>Sie planen ein Azure-Local-Vorhaben oder suchen Unterstützung für Ihre hybride Umgebung? Lassen Sie uns über Ausgangslage, Anforderungen und nächste Schritte sprechen.</p><div class="actions"><a class="button" href="https://de.linkedin.com/in/johannes-harnack-34846b204" target="_blank" rel="noopener noreferrer">Auf LinkedIn Kontakt aufnehmen <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.xing.com/profile/Johannes_Harnack" target="_blank" rel="noopener noreferrer">Alternativ auf Xing <span aria-hidden="true">↗</span></a></div><small>Die Links öffnen mein Profil in einem neuen Tab.</small>
+        <details class="email-contact">
+          <summary>Per E-Mail kontaktieren <span aria-hidden="true">＋</span></summary>
+          <div class="email-contact-content">
+            <h3>Worum geht es bei Ihrem Vorhaben?</h3>
+            <p id="contact-form-note">Das Formular öffnet Ihr E-Mail-Programm mit einer vorausgefüllten Nachricht an <a href="mailto:johannes@harnack.cloud">johannes@harnack.cloud</a>. Versenden Sie die Nachricht anschließend dort.</p>
+            <form class="email-form" aria-describedby="contact-form-note">
+              <div class="form-row">
+                <div class="form-field"><label for="contact-name">Ihr Name <span>(Pflichtfeld)</span></label><input id="contact-name" name="name" type="text" autocomplete="name" maxlength="120" required></div>
+                <div class="form-field"><label for="contact-email">Ihre E-Mail-Adresse <span>(Pflichtfeld)</span></label><input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required></div>
+              </div>
+              <div class="form-field"><label for="contact-message">Ihre Nachricht <span>(Pflichtfeld)</span></label><textarea id="contact-message" name="message" rows="6" maxlength="1200" placeholder="Beschreiben Sie kurz Ihre Ausgangslage und die gewünschte Unterstützung." required></textarea></div>
+              <button class="button" type="submit">Nachricht im E-Mail-Programm öffnen <span aria-hidden="true">↗</span></button>
+              <p class="form-status" id="email-form-status" role="status"></p>
+              <p class="form-help">Falls sich kein E-Mail-Programm öffnet, schreiben Sie direkt an <a href="mailto:johannes@harnack.cloud">johannes@harnack.cloud</a>. Ihre Eingaben bleiben im Formular erhalten.</p>
+              <noscript><p>Für das vorausgefüllte Formular benötigen Sie JavaScript. Alternativ erreichen Sie mich direkt unter <a href="mailto:johannes@harnack.cloud">johannes@harnack.cloud</a>.</p></noscript>
+            </form>
+          </div>
+        </details></div></section>
+  </main>
+  <footer class="container footer"><div><a class="footer-name" href="#home">Johannes Harnack<span>.</span></a><p>Azure Local &amp; Hybrid Infrastructure</p></div><p>© <span id="year">2026</span> Johannes Harnack</p><a class="text-link" href="#home">Zurück nach oben ↑</a></footer>
+</body>
 </html>
