@@ -19,8 +19,12 @@ Die vorhandenen Dateien unter `assets/scss/` stammen aus dem ursprünglichen
 Bedimcode-Theme. Sie sind nur als historische Quelle erhalten und werden vom
 Redesign nicht eingebunden. Nicht über das neue CSS kompilieren.
 
-Kontakt erfolgt über die bestehenden LinkedIn- und Xing-Profile. Das alte,
-nicht konfigurierte EmailJS-Formular wurde entfernt.
+Kontakt erfolgt über die bestehenden LinkedIn- und Xing-Profile oder das
+aufklappbare E-Mail-Formular. Dieses öffnet per `mailto:` einen vorausgefüllten
+Entwurf an `johannes@harnack.cloud` im E-Mail-Programm des Besuchers. Der Besucher
+muss dort selbst versenden; ein konfiguriertes E-Mail-Programm ist erforderlich.
+Die Webseite speichert oder versendet keine Formulardaten. Das alte, nicht
+konfigurierte EmailJS-Formular wurde entfernt.
 
 ## Prüfung und Veröffentlichung
 

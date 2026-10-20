@@ -550,3 +550,55 @@ figcaption small {
 *,*:before,*:after {
   transition:none!important}
 }
+
+/* Email draft form: no backend or external form service. */
+.email-contact {
+  margin-top:32px;
+  padding-top:28px;
+  border-top:1px solid #315271;
+}
+.email-contact summary {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  width:fit-content;
+  max-width:100%;
+  border:1px solid #59728e;
+  padding:12px 20px;
+  font-size:.85rem;
+  font-weight:600;
+  cursor:pointer;
+  list-style:none;
+}
+.email-contact summary::-webkit-details-marker { display:none; }
+.email-contact summary:hover { border-color:var(--blue);color:var(--blue); }
+.email-contact summary:focus-visible,
+.email-form input:focus-visible,
+.email-form textarea:focus-visible { outline:3px solid var(--blue);outline-offset:4px; }
+.email-contact[open] summary span { transform:rotate(45deg); }
+.email-contact-content { max-width:780px;margin-top:28px; }
+.email-contact-content>p { color:var(--muted);font-size:.85rem;margin-top:14px; }
+.email-form { margin-top:24px; }
+.form-row { display:grid;grid-template-columns:1fr 1fr;gap:20px; }
+.form-field { display:flex;flex-direction:column;gap:8px;margin-bottom:20px;min-width:0; }
+.form-field label { font-size:.85rem; }
+.form-field label span { color:var(--muted);font-size:.7rem; }
+.form-field input,.form-field textarea {
+  width:100%;
+  border:1px solid #50647c;
+  border-radius:0;
+  padding:12px;
+  background:var(--bg);
+  color:var(--text);
+  font:inherit;
+}
+.form-field textarea { resize:vertical;min-height:150px; }
+.form-field textarea::placeholder { color:var(--muted);font-size:.85rem; }
+.email-form .button { border:0;cursor:pointer; }
+.email-form .button:disabled { background:#263345;color:#a7b4c7;cursor:not-allowed; }
+@media(max-width:600px) { .form-row { grid-template-columns:1fr;gap:0; } }
+
+.form-help,.form-status { color:var(--muted);font-size:.8rem;margin-top:16px; }
+.email-contact-content a { color:var(--blue);text-decoration:underline;overflow-wrap:anywhere; }
+.form-status:empty { display:none; }

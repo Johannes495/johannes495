@@ -24,3 +24,22 @@ document.addEventListener('keydown', (event) => {
 });
 mobile.addEventListener('change', () => setMenu(false));
 document.querySelector('#year').textContent = String(new Date().getFullYear());
+
+// The browser hands the draft to the visitor's configured email application.
+const emailForm = document.querySelector('.email-form');
+emailForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (!emailForm.reportValidity()) return;
+  const fields = new FormData(emailForm);
+  const name = String(fields.get('name')).trim();
+  const email = String(fields.get('email')).trim();
+  const message = String(fields.get('message')).trim();
+  if (!name || !message) {
+    document.querySelector('#email-form-status').textContent = 'Bitte geben Sie Ihren Namen und eine Nachricht ein.';
+    return;
+  }
+  const subject = 'Kontaktanfrage über die Webseite';
+  const body = ['Hallo Johannes,', '', message, '', 'Viele Grüße', name, 'E-Mail: ' + email].join('\r\n');
+  window.location.href = 'mailto:johannes@harnack.cloud?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  document.querySelector('#email-form-status').textContent = 'Die Nachricht wurde an Ihr E-Mail-Programm übergeben. Bitte prüfen und versenden Sie sie dort. Über diese Webseite wurde keine E-Mail versendet.';
+});
