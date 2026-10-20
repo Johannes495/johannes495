@@ -31,3 +31,7 @@ konfigurierte EmailJS-Formular wurde entfernt.
 Der Branch `website-redesign` dient der Prüfung per Pull Request gegen `main`.
 `CNAME` bleibt unverändert. Es wurde kein Deployment-Workflow hinzugefügt.
 Ein Merge bzw. die Veröffentlichung ist eine separate Entscheidung.
+
+Bei Änderungen an CSS oder JavaScript die `?v=`-Versionskennung des jeweiligen
+Verweises in `index.html` aktualisieren (erste zwölf Zeichen des SHA-256-Hashes).
+So laden Browser nach einer Veröffentlichung keine veralteten Assets.
